@@ -2,6 +2,14 @@
   "name": "foldersnap",
   "version": "1.0.0",
   "description": "Snapshot a project's folder structure into a readable tree",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aakashkalla/foldersnap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aakashkalla/foldersnap/issues"
+  },
+  "homepage": "https://github.com/Aakashkalla/foldersnap#readme",
   "main": "dist/index.js",
   "bin": {
     "foldersnap": "./dist/index.js"
@@ -28,7 +36,7 @@
     "snapshot",
     "typescript"
   ],
-  "author": "",
+  "author": "Aakashkalla",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.11.0",
