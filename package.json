@@ -1,0 +1,38 @@
+{
+  "name": "foldersnap",
+  "version": "1.0.0",
+  "description": "Snapshot a project's folder structure into a readable tree",
+  "main": "dist/index.js",
+  "bin": {
+    "foldersnap": "./dist/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "cli",
+    "tree",
+    "folder",
+    "snapshot",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
