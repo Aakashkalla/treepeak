@@ -62,12 +62,15 @@ treepeak --output structure.md
 Full snapshot file: [snap.md](snap.md)
 
 ```
-basic-cli
+treepeak
 ├── src
 │   ├── index.ts
 │   └── tree.ts
+├── .gitignore
+├── LICENSE
 ├── package-lock.json
 ├── package.json
+├── README.md
 ├── tsconfig.json
 └── tsup.config.ts
 ```

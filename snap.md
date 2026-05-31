@@ -1,15 +1,18 @@
 # Folder Snapshot
 
 Snapshot of `D:\treepeak`
-Generated on: 31/5/2026, 1:09:52 pm
+Generated on: 31/5/2026, 2:02:17 pm
 
 ```
-basic-cli
+treepeak
 ├── src
 │   ├── index.ts
 │   └── tree.ts
+├── .gitignore
+├── LICENSE
 ├── package-lock.json
 ├── package.json
+├── README.md
 ├── tsconfig.json
 └── tsup.config.ts
 ```
