@@ -1,18 +1,18 @@
 {
-  "name": "foldersnap",
+  "name": "treepeak",
   "version": "1.0.0",
   "description": "Snapshot a project's folder structure into a readable tree",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Aakashkalla/foldersnap.git"
+    "url": "https://github.com/Aakashkalla/treepeak.git"
   },
   "bugs": {
-    "url": "https://github.com/Aakashkalla/foldersnap/issues"
+    "url": "https://github.com/Aakashkalla/treepeak/issues"
   },
-  "homepage": "https://github.com/Aakashkalla/foldersnap#readme",
+  "homepage": "https://github.com/Aakashkalla/treepeak#readme",
   "main": "dist/index.js",
   "bin": {
-    "foldersnap": "./dist/index.js"
+    "treepeak": "./dist/index.js"
   },
   "engines": {
     "node": ">=20"

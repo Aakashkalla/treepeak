@@ -4,13 +4,13 @@ import * as fs from 'fs/promises';
 import { buildTree, renderTreeLines } from './tree.js';
 
 // MENTOR NOTE FOR JUNIORS:
-// Always output clean help text. A user should be able to run `foldersnap -h` or `foldersnap --help` 
+// Always output clean help text. A user should be able to run `treepeak -h` or `treepeak --help` 
 // and immediately know how to use your tool without referring to online documentation.
 const HELP_TEXT = `
-foldersnap - A CLI tool to snapshot your folder structure into a clean tree view.
+treepeak - A CLI tool to snapshot your folder structure into a clean tree view.
 
 Usage:
-  foldersnap [options] [path]
+  treepeak [options] [path]
 
 Options:
   -o, --output <file>    Saves the tree structure to a file (saves as markdown).
@@ -19,10 +19,10 @@ Options:
   -h, --help             Displays this help information.
 
 Examples:
-  foldersnap
-  foldersnap --depth 2
-  foldersnap --output snap.md
-  foldersnap --ignore "temp,build,.env" ./my-project
+  treepeak
+  treepeak --depth 2
+  treepeak --output snap.md
+  treepeak --ignore "temp,build,.env" ./my-project
 `;
 
 async function main() {
